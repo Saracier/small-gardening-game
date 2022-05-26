@@ -39,3 +39,4 @@ function secondPlantGetDry(droughtAmount) {
   secondPlantWaterBar.value = secondPlantWaterBar.value - drought;
   return drought;
 }
+TEST CZY GIT DZIAŁA
