@@ -33,3 +33,9 @@ function firstPlantGetDry(droughtAmount) {
   firstPlantWaterBar.value = firstPlantWaterBar.value - drought;
   return drought;
 }
+
+function secondPlantGetDry(droughtAmount) {
+  const drought = Math.random() * droughtAmount;
+  secondPlantWaterBar.value = secondPlantWaterBar.value - drought;
+  return drought;
+}
