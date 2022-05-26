@@ -1,15 +1,35 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-
+    <section id="mainContainer">
+        <h2>Water Can</h2>
+        <progress id="waterCanWaterLevel" max="100" value="100">100%</progress>
+        <div id="gardenStatus">
+            <h2>First plant Water</h2>
+            <progress id="firstPlantWaterLevel" max="100" value="100">100%</progress>
+            <h2>Second plant Water</h2>
+            <progress id="secondPlantWaterLevel" max="100" value="100">100%</progress>
+            <h2>Third plant Water</h2>
+            <progress id="thirdPlantWaterLevel" max="100" value="100">100%</progress>
+        </div>
+    </section>
+    <section id="controls">
+        <button id="fillCan"> Fill Can </button>
+        <button id="waterFirstPlant"> Water First Plant</button>
+        <button id="waterSecondPlant">Water Second Plant</button>
+        <button id="waterThirdPlant"> Water Third Plant</button>
+        <button id="printLog">Print Log</button>
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,70 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h2,
+button {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+#mainContainer,
+#controls {
+    margin: 2rem auto;
+    width: 30rem;
+    text-align: center;
+    border-radius:10px;
+    background: grey;
+    padding: 1rem;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+}
+
+progress {
+    -webkit-appearance: none;
+ -moz-appearance: none;
+    appearance: none;
+    border: 1px solid rgba(52, 52, 52, 0.849);
+    width: 80%;
+    height: 2rem;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+    background-color: #eee;
+    box-shadow:  0 2px 5px rgba(0, 0, 0, 0.70) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #1410e5;
+    transition: all 1s ease-out;
+  }
+  
+  progress[value]::-moz-progress-bar {
+    background-color: #a927f5;
+    transition: all 1s ease-out;
+  }
+
+  button {
+      background-color: #7118a4;
+      height: 3rem;
+      margin: 0.7rem;
+      color: #eee;
+      font-size: 1.8rem;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      cursor: pointer;
+  }
+
+  button:hover,
+  button:active {
+    background-color: #3734e0;
+    color: #eee;
+  }
