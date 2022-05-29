@@ -45,12 +45,12 @@ progress[value] {
 
 progress[value]::-webkit-progress-value {
     background-color: #1410e5;
-    transition: all 1s ease-out;
+    transition: all 0.2s ease-out;
   }
   
   progress[value]::-moz-progress-bar {
     background-color: #a927f5;
-    transition: all 1s ease-out;
+    transition: all 0.2s ease-out;
   }
 
   button {
